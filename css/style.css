@@ -273,12 +273,14 @@ hr {
 }
 
 .section--clients {
-    background: url('../img/clients/background.png');
+    background: url('../img/clients/background.png') center no-repeat;
+    background-size: cover;
 }
 
 .section--map {
     padding: 40px 0;
-    background: url('../img/map/map.png');
+    background: url('../img/map/map.png') center no-repeat;
+    background-size: cover;
 }
 
 .text {
@@ -1045,20 +1047,22 @@ hr {
 }
 
 /*insta*/
-.instagram{
+.instagram {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.instagr-item{
-   width: 32%;
+
+.instagr-item {
+    width: 32%;
     border-bottom: 1px solid white;
 }
-.instagr-item img{
+
+.instagr-item img {
     display: block;
 }
 
-.copyright{
+.copyright {
     padding: 20px 0;
     text-align: center;
     color: black;
@@ -1066,6 +1070,6 @@ hr {
     border-top: 1px solid #e5e5e5;
 }
 
-.copyright span{
+.copyright span {
     color: #f38181;
 }
